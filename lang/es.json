@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "lang": "es",
+    "name": "Español",
+    "flag": "🇪🇸"
+  },
+  "hero": {
+    "badge": "Autor e Inventor",
+    "name": "Bjørn V. Hauge",
+    "tagline": "Explorando la intersección de la <span class=\"highlight-blue\">IA</span>, la <span class=\"highlight-purple\">tecnología</span> y la <span class=\"highlight-green\">sociedad</span> a través de libros e innovación.",
+    "bio": "Fundador de Veriton – una empresa dedicada a hacer la IA confiable, explicable y auditable. Inventor de la Transparent Verifiable Random Function (TVRF).",
+    "founderBadge": "Fundador de Veriton",
+    "btnBooks": "Mis libros",
+    "btnAbout": "Sobre mí",
+    "btnVeriton": "Veriton"
+  },
+  "books": {
+    "sectionTitle": "Colección de libros",
+    "sectionSubtitle": "Desde no ficción sobre regulación de IA hasta novelas emocionantes – explora mis libros en la intersección de tecnología y sociedad.",
+    "categories": {
+      "nonfiction": {
+        "title": "No Ficción",
+        "subtitle": "Non-Fiction"
+      },
+      "novels": {
+        "title": "Novelas",
+        "subtitle": "Novels"
+      },
+      "children": {
+        "title": "Libros infantiles",
+        "subtitle": "Children's Books"
+      }
+    },
+    "series": {
+      "aiThrone": {
+        "title": "La Caza del Trono de IA",
+        "subtitle": "The Hunt for the AI Throne"
+      },
+      "evaLindgren": {
+        "title": "La Trilogía Eva Lindgren",
+        "subtitle": "The Eva Lindgren Trilogy"
+      },
+      "oracle": {
+        "title": "El Oráculo",
+        "subtitle": "The Oracle"
+      }
+    },
+    "items": {
+      "tillit": {
+        "title": "Confianza",
+        "titleEn": "Tillit",
+        "description": "Qué sucede cuando confiamos en máquinas que no entendemos"
+      },
+      "euAiAct": {
+        "title": "EU AI Act",
+        "titleEn": "Regulación de IA en la práctica",
+        "description": "Un libro de no ficción sobre regulación de IA"
+      },
+      "jaktenAiTronen": {
+        "title": "La Caza del Trono de IA",
+        "titleEn": "Jakten på AI-tronen",
+        "description": ""
+      },
+      "jaktenArven": {
+        "title": "La Caza de la Herencia",
+        "titleEn": "Jakten på Arven",
+        "description": "Un tecno-thriller noruego"
+      },
+      "rettensTime": {
+        "title": "La Hora de la Justicia",
+        "titleEn": "Rettens Time",
+        "description": "Un thriller de Eva Lindgren"
+      },
+      "justitia": {
+        "title": "JUSTITIA",
+        "titleEn": "",
+        "description": ""
+      },
+      "blindsone": {
+        "title": "Punto Ciego",
+        "titleEn": "Blindsone",
+        "description": "Un thriller tecnológico sobre IA y poder"
+      },
+      "oracle2": {
+        "title": "Oracle 2.0",
+        "titleEn": "Secuela de Punto Ciego",
+        "description": ""
+      },
+      "aiPolitiet": {
+        "title": "La Policía de IA",
+        "titleEn": "AI-Politiet",
+        "description": "Una serie de libros infantiles sobre inteligencia artificial"
+      }
+    },
+    "status": {
+      "completed": "Completado",
+      "construction": "🚧 En desarrollo"
+    },
+    "publisherNote": "<strong>Para editores:</strong> Estos manuscritos están disponibles para licencia."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "p1": "Soy <strong>Bjørn V. Hauge</strong>, fundador de <a href=\"https://veriton.io\" target=\"_blank\">Veriton</a> – una empresa dedicada a hacer la IA confiable, explicable y auditable.",
+    "p2": "Mi trabajo se centra en la intersección de la inteligencia artificial, la tecnología y la sociedad. A través de Veriton, estoy desarrollando la tecnología <strong>Transparent Verifiable Random Function (TVRF)</strong> para ayudar a las organizaciones a cumplir con el EU AI Act y desbloquear la IA para mercados regulados como salud, banca, finanzas, sector público y defensa.",
+    "p3": "Además, escribo libros sobre IA – desde no ficción que explora la confianza y la regulación, hasta thrillers que dramatizan los dilemas éticos de nuestra era tecnológica, hasta libros infantiles que introducen conceptos de IA a mentes jóvenes.",
+    "connectTitle": "Contáctame"
+  },
+  "footer": {
+    "copyright": "© 2026 Bjørn V. Hauge. Todos los derechos reservados."
+  },
+  "common": {
+    "contactLinkedIn": "Contáctame en LinkedIn"
+  }
+}

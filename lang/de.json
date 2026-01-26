@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "lang": "de",
+    "name": "Deutsch",
+    "flag": "🇩🇪"
+  },
+  "hero": {
+    "badge": "Autor & Erfinder",
+    "name": "Bjørn V. Hauge",
+    "tagline": "Erforschung der Schnittstelle von <span class=\"highlight-blue\">KI</span>, <span class=\"highlight-purple\">Technologie</span> und <span class=\"highlight-green\">Gesellschaft</span> durch Bücher und Innovation.",
+    "bio": "Gründer von Veriton – ein Unternehmen, das sich der Entwicklung vertrauenswürdiger, erklärbarer und überprüfbarer KI widmet. Erfinder der Transparent Verifiable Random Function (TVRF).",
+    "founderBadge": "Gründer von Veriton",
+    "btnBooks": "Meine Bücher",
+    "btnAbout": "Über mich",
+    "btnVeriton": "Veriton"
+  },
+  "books": {
+    "sectionTitle": "Buchsammlung",
+    "sectionSubtitle": "Von Sachbüchern über KI-Regulierung bis hin zu spannenden Romanen – entdecken Sie meine Bücher an der Schnittstelle von Technologie und Gesellschaft.",
+    "categories": {
+      "nonfiction": {
+        "title": "Sachbücher",
+        "subtitle": "Non-Fiction"
+      },
+      "novels": {
+        "title": "Romane",
+        "subtitle": "Novels"
+      },
+      "children": {
+        "title": "Kinderbücher",
+        "subtitle": "Children's Books"
+      }
+    },
+    "series": {
+      "aiThrone": {
+        "title": "Die Jagd nach dem KI-Thron",
+        "subtitle": "The Hunt for the AI Throne"
+      },
+      "evaLindgren": {
+        "title": "Die Eva Lindgren Trilogie",
+        "subtitle": "The Eva Lindgren Trilogy"
+      },
+      "oracle": {
+        "title": "Das Orakel",
+        "subtitle": "The Oracle"
+      }
+    },
+    "items": {
+      "tillit": {
+        "title": "Vertrauen",
+        "titleEn": "Tillit",
+        "description": "Was passiert, wenn wir Maschinen vertrauen, die wir nicht verstehen"
+      },
+      "euAiAct": {
+        "title": "EU AI Act",
+        "titleEn": "KI-Regulierung in der Praxis",
+        "description": "Ein Sachbuch über KI-Regulierung"
+      },
+      "jaktenAiTronen": {
+        "title": "Die Jagd nach dem KI-Thron",
+        "titleEn": "Jakten på AI-tronen",
+        "description": ""
+      },
+      "jaktenArven": {
+        "title": "Die Jagd nach dem Erbe",
+        "titleEn": "Jakten på Arven",
+        "description": "Ein norwegischer Techno-Thriller"
+      },
+      "rettensTime": {
+        "title": "Die Stunde der Gerechtigkeit",
+        "titleEn": "Rettens Time",
+        "description": "Ein Eva Lindgren Thriller"
+      },
+      "justitia": {
+        "title": "JUSTITIA",
+        "titleEn": "",
+        "description": ""
+      },
+      "blindsone": {
+        "title": "Blinder Fleck",
+        "titleEn": "Blindsone",
+        "description": "Ein Technologie-Thriller über KI und Macht"
+      },
+      "oracle2": {
+        "title": "Oracle 2.0",
+        "titleEn": "Fortsetzung von Blinder Fleck",
+        "description": ""
+      },
+      "aiPolitiet": {
+        "title": "Die KI-Polizei",
+        "titleEn": "AI-Politiet",
+        "description": "Eine Kinderbuchserie über künstliche Intelligenz"
+      }
+    },
+    "status": {
+      "completed": "Abgeschlossen",
+      "construction": "🚧 In Entwicklung"
+    },
+    "publisherNote": "<strong>Für Verlage:</strong> Diese Manuskripte sind zur Lizenzierung verfügbar."
+  },
+  "about": {
+    "title": "Über mich",
+    "p1": "Ich bin <strong>Bjørn V. Hauge</strong>, Gründer von <a href=\"https://veriton.io\" target=\"_blank\">Veriton</a> – ein Unternehmen, das sich der Entwicklung vertrauenswürdiger, erklärbarer und überprüfbarer KI widmet.",
+    "p2": "Meine Arbeit konzentriert sich auf die Schnittstelle von künstlicher Intelligenz, Technologie und Gesellschaft. Durch Veriton entwickle ich die <strong>Transparent Verifiable Random Function (TVRF)</strong>-Technologie, um Organisationen bei der Einhaltung des EU AI Act zu unterstützen und KI für regulierte Märkte wie Gesundheitswesen, Banken, Finanzen, öffentlicher Sektor und Verteidigung freizuschalten.",
+    "p3": "Nebenbei schreibe ich Bücher über KI – von Sachbüchern über Vertrauen und Regulierung bis hin zu Thrillern, die die ethischen Dilemmata unseres technologischen Zeitalters dramatisieren, bis hin zu Kinderbüchern, die jungen Köpfen KI-Konzepte näherbringen.",
+    "connectTitle": "Kontaktieren Sie mich"
+  },
+  "footer": {
+    "copyright": "© 2026 Bjørn V. Hauge. Alle Rechte vorbehalten."
+  },
+  "common": {
+    "contactLinkedIn": "Kontaktieren Sie mich auf LinkedIn"
+  }
+}
