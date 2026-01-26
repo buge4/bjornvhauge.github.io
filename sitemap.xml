@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://bjornvhauge.com/</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="no" href="https://bjornvhauge.com/?lang=no"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bjornvhauge.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bjornvhauge.com/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bjornvhauge.com/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bjornvhauge.com/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://bjornvhauge.com/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bjornvhauge.com/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bjornvhauge.com/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bjornvhauge.com/"/>
+  </url>
+</urlset>
