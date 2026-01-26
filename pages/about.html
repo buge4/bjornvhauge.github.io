@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Meg - Bjørn V. Hauge</title>
+    <meta name="description" content="Lær mer om Bjørn V. Hauge, grunnlegger av Veriton og forfatter av bøker om AI, teknologi og samfunn.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="icon" type="image/png" href="../images/bjorn_hauge_professional.png">
+</head>
+<body>
+    <!-- Back Button -->
+    <a href="../index.html" class="back-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+        <span>Tilbake</span>
+    </a>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button id="langBtn" class="lang-btn">
+            <span class="flag">🇳🇴</span>
+            <span class="lang-text">Norsk</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+        <div id="langDropdown" class="lang-dropdown">
+            <button class="lang-option active" data-lang="no">
+                <span class="flag">🇳🇴</span> Norsk
+            </button>
+            <button class="lang-option" data-lang="en">
+                <span class="flag">🇬🇧</span> English
+            </button>
+        </div>
+    </div>
+
+    <!-- About Hero -->
+    <section class="about-hero">
+        <div class="container">
+            <div class="about-hero-content">
+                <div class="about-image">
+                    <img src="../images/bjorn_office_ai.png" alt="Bjørn V. Hauge">
+                    <p class="image-caption">Bjørn V. Hauge</p>
+                </div>
+                
+                <div class="about-intro">
+                    <div class="founder-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 21h18"></path>
+                            <path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"></path>
+                        </svg>
+                        <span data-i18n="about.badge">Grunnlegger av Veriton</span>
+                    </div>
+                    
+                    <h1>Bjørn V. Hauge</h1>
+                    <p class="subtitle" data-i18n="about.subtitle">Grunnlegger av Veriton</p>
+                    
+                    <div class="tags">
+                        <span class="tag tag-yellow">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                            TVRF
+                        </span>
+                        <span class="tag tag-blue">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                            <span data-i18n="about.writer">Forfatter</span>
+                        </span>
+                        <span class="tag tag-gray">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            Oslo, Norway
+                        </span>
+                    </div>
+                    
+                    <p class="intro-text" data-i18n="about.intro">
+                        Jeg jobber med å gjøre AI bedre gjennom Veriton. Ved siden av skriver jeg bøker som deler kunnskap om AI på ulike måter – barnebøker for de yngste, sakprosa for de som vil forstå reguleringene, og thrillere for de som liker spenning med substans.
+                    </p>
+                    
+                    <div class="intro-buttons">
+                        <a href="https://veriton.io" target="_blank" class="btn btn-veriton">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            <span data-i18n="about.visitVeriton">Besøk veriton.io</span>
+                        </a>
+                        <a href="https://linkedin.com/in/bjornvhauge" target="_blank" class="btn btn-outline">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Story Section -->
+    <section class="my-story">
+        <div class="container">
+            <h2 data-i18n="about.myStory">Min Historie</h2>
+            
+            <div class="story-content">
+                <p data-i18n="about.story1">
+                    Jeg er grunnleggeren av Veriton, et selskap som jobber med å løse fundamentale utfordringer i AI-systemer. Sammen med min far Rolf Hauge startet vi selskapet i Oslo i 2025.
+                </p>
+                <p data-i18n="about.story2">
+                    Med bakgrunn fra IT og finans har jeg brukt de siste årene på å forstå hvordan vi kan gjøre AI mer pålitelig og transparent. Dette arbeidet har resultert i TVRF (Transparent Verifiable Random Function), en tilnærming til verifiserbar tilfeldighet for digitale systemer.
+                </p>
+                <p data-i18n="about.story3">
+                    Ved siden av det tekniske arbeidet skriver jeg bøker. Barnebøkene mine handler om å lære barn om AI på en morsom måte. Sakprosaen forklarer AI-regulering for de som trenger å forstå det. Og thrillerne? De lar meg utforske de mørkere sidene av teknologi – hva skjer når AI går galt?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Veriton Section -->
+    <section class="veriton-section">
+        <div class="container">
+            <h2 data-i18n="about.veritonTitle">Veriton Technologies</h2>
+            
+            <p class="veriton-intro" data-i18n="about.veritonIntro">
+                Veriton ble grunnlagt i Oslo i 2025 av far og sønn Rolf Hauge og Bjørn Vidar Hauge. Selskapet jobber med å løse fundamentale utfordringer i AI-infrastruktur.
+            </p>
+            
+            <p class="veriton-desc" data-i18n="about.veritonDesc">
+                Veriton utvikler teknologier som adresserer tilfeldighetsproblemer i AI-systemer. Målet er å gjøre AI mer pålitelig, effektiv og transparent.
+            </p>
+            
+            <!-- Stats -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">$47B</div>
+                    <div class="stat-label" data-i18n="about.stat1">Tapt årlig på mislykkede AI-treninger</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">73%</div>
+                    <div class="stat-label" data-i18n="about.stat2">AI-modeller krever flere treningsforsøk</div>
+                </div>
+                <div class="stat-card stat-highlight">
+                    <div class="stat-value">TVRF</div>
+                    <div class="stat-label" data-i18n="about.stat3">Teknologi for verifiserbar tilfeldighet</div>
+                </div>
+            </div>
+            
+            <!-- Core Competencies -->
+            <div class="competencies">
+                <h3 data-i18n="about.competencies">Kjernekompetanse</h3>
+                <ul>
+                    <li data-i18n="about.comp1">Forståelse av regulerte IT-systemer</li>
+                    <li data-i18n="about.comp2">Erfaring med krav fra finanssektoren</li>
+                    <li data-i18n="about.comp3">Infrastruktur som møter regulatoriske standarder</li>
+                    <li data-i18n="about.comp4">Systemer som krever stabilitet og revisjon</li>
+                    <li data-i18n="about.comp5">AI-arkitektur og optimalisering</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="publications">
+        <div class="container">
+            <h3 data-i18n="about.publications">Publikasjoner</h3>
+            <ul class="publication-list">
+                <li><strong>EU AI Act</strong> – <span data-i18n="about.pub1">Sakprosa om AI-regulering (22 kapitler)</span></li>
+                <li><strong>Jakten på AI-tronen</strong> – <span data-i18n="about.pub2">Thriller-roman (32 kapitler)</span></li>
+                <li><strong>Rettens Time</strong> – <span data-i18n="about.pub3">Juridisk thriller (29 kapitler)</span></li>
+                <li><strong>Maskinen som høres sikker ut</strong> – <span data-i18n="about.pub4">Kommer snart</span></li>
+                <li><strong>AI-Politiet</strong> – <span data-i18n="about.pub5">Barnebokserie (8 bøker)</span></li>
+                <li data-i18n="about.pub6">Artikler om AI-regulering og teknologi på veriton.io</li>
+            </ul>
+            
+            <div class="explore-books">
+                <h4 data-i18n="about.exploreTitle">Utforsk mine bøker</h4>
+                <p data-i18n="about.exploreDesc">Fra sakprosa om AI-regulering til spennende romaner – finn din neste lesning.</p>
+                <a href="books.html" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <span data-i18n="about.viewBooks">Se alle bøker</span>
+                </a>
+                <a href="veriton.html" class="btn btn-outline">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 21h18"></path>
+                        <path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"></path>
+                    </svg>
+                    <span data-i18n="about.readVeriton">Les om Veriton</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Bjørn V. Hauge</h3>
+                    <p data-i18n="footer.tagline">Forfatter, Oppfinner & Grunnlegger av Veriton</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://veriton.io" target="_blank" rel="noopener">Veriton</a>
+                    <a href="https://linkedin.com/in/bjornvhauge" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="mailto:info@bjornvhauge.com">Kontakt</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bjørn V. Hauge. <span data-i18n="footer.rights">Alle rettigheter reservert.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/about-i18n.js"></script>
+</body>
+</html>

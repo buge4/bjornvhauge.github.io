@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veriton - Bjørn V. Hauge</title>
+    <meta name="description" content="Veriton Technologies - AI-infrastruktur og TVRF-teknologi grunnlagt av Rolf og Bjørn Hauge i Oslo.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/veriton.css">
+    <link rel="icon" type="image/png" href="../images/bjorn_hauge_professional.png">
+</head>
+<body>
+    <!-- Back Button -->
+    <a href="../index.html" class="back-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+        <span>Tilbake</span>
+    </a>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button id="langBtn" class="lang-btn">
+            <span class="flag">🇳🇴</span>
+            <span class="lang-text">Norsk</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+        <div id="langDropdown" class="lang-dropdown">
+            <button class="lang-option active" data-lang="no">
+                <span class="flag">🇳🇴</span> Norsk
+            </button>
+            <button class="lang-option" data-lang="en">
+                <span class="flag">🇬🇧</span> English
+            </button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="veriton-hero">
+        <div class="container">
+            <div class="hero-badge">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 21h18"></path>
+                    <path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"></path>
+                </svg>
+                <span>Oslo, Norway • Established 2025</span>
+            </div>
+            <h1>Veriton Technologies</h1>
+            <p class="hero-tagline">Bygger fremtidens AI-infrastruktur med verifiserbar tilfeldighet</p>
+            <a href="https://veriton.io" target="_blank" class="btn btn-veriton-primary">
+                <span>Besøk veriton.io</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Veriton -->
+    <section class="veriton-about">
+        <div class="container">
+            <h2>Om Veriton</h2>
+            <div class="about-content">
+                <p>Veriton ble grunnlagt i Oslo i 2025 av far og sønn Rolf Hauge og Bjørn Vidar Hauge. Selskapet jobber med å løse fundamentale utfordringer i AI-infrastruktur.</p>
+                <p>Med bakgrunn fra IT og finans har grunnleggerne brukt de siste årene på å forstå hvordan vi kan gjøre AI mer pålitelig og transparent. Dette arbeidet har resultert i TVRF (Transparent Verifiable Random Function), en tilnærming til verifiserbar tilfeldighet for digitale systemer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TVRF Technology -->
+    <section class="tvrf-section">
+        <div class="container">
+            <div class="tvrf-header">
+                <span class="tvrf-badge">Kjerneteknologi</span>
+                <h2>TVRF</h2>
+                <p class="tvrf-subtitle">Transparent Verifiable Random Function</p>
+            </div>
+            
+            <div class="tvrf-description">
+                <p>TVRF er en teknologi for verifiserbar tilfeldighet i AI-systemer. Den adresserer et fundamentalt problem: Hvordan kan vi vite at tilfeldigheten i AI-trening faktisk er tilfeldig?</p>
+            </div>
+
+            <!-- Problem Stats -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">$47B</div>
+                    <div class="stat-label">Tapt årlig på mislykkede AI-treninger globalt</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">73%</div>
+                    <div class="stat-label">AI-modeller krever flere treningsforsøk</div>
+                </div>
+                <div class="stat-card stat-highlight">
+                    <div class="stat-value">TVRF</div>
+                    <div class="stat-label">Løsning for verifiserbar tilfeldighet</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founders -->
+    <section class="founders-section">
+        <div class="container">
+            <h2>Grunnleggere</h2>
+            <div class="founders-grid">
+                <div class="founder-card">
+                    <div class="founder-avatar">RH</div>
+                    <h3>Rolf Hauge</h3>
+                    <p class="founder-title">Medgrunnlegger</p>
+                    <p class="founder-bio">Erfaring fra IT og finans. Fokus på regulerte systemer og compliance.</p>
+                </div>
+                <div class="founder-card">
+                    <div class="founder-avatar">BH</div>
+                    <h3>Bjørn V. Hauge</h3>
+                    <p class="founder-title">Medgrunnlegger & Forfatter</p>
+                    <p class="founder-bio">AI-arkitektur og optimalisering. Forfatter av bøker om AI og teknologi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Competencies -->
+    <section class="competencies-section">
+        <div class="container">
+            <h2>Kjernekompetanse</h2>
+            <div class="competencies-grid">
+                <div class="competency-card">
+                    <div class="competency-icon">🏛️</div>
+                    <h3>Regulerte systemer</h3>
+                    <p>Forståelse av krav fra finanssektoren og andre regulerte industrier</p>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">🔒</div>
+                    <h3>Compliance</h3>
+                    <p>Infrastruktur som møter regulatoriske standarder</p>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">🤖</div>
+                    <h3>AI-arkitektur</h3>
+                    <p>Design og optimalisering av AI-systemer</p>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">📊</div>
+                    <h3>Revisjon</h3>
+                    <p>Systemer som krever stabilitet og sporbarhet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Lær mer om Veriton</h2>
+            <p>Besøk vår hovedside for mer informasjon om teknologien og selskapet.</p>
+            <div class="cta-buttons">
+                <a href="https://veriton.io" target="_blank" class="btn btn-veriton-primary">
+                    <span>Besøk veriton.io</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                </a>
+                <a href="mailto:info@bjornvhauge.com" class="btn btn-outline">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>Kontakt oss</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Bjørn V. Hauge</h3>
+                    <p>Forfatter, Oppfinner & Grunnlegger av Veriton</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://veriton.io" target="_blank" rel="noopener">Veriton</a>
+                    <a href="https://linkedin.com/in/bjornvhauge" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="mailto:info@bjornvhauge.com">Kontakt</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bjørn V. Hauge. Alle rettigheter reservert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

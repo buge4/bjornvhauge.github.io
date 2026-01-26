@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bøker - Bjørn V. Hauge</title>
+    <meta name="description" content="Utforsk Bjørn V. Hauges bøker om AI, teknologi og samfunn. Sakprosa, romaner og barnebøker.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/books.css">
+    <link rel="icon" type="image/png" href="../images/bjorn_hauge_professional.png">
+</head>
+<body>
+    <!-- Back Button -->
+    <a href="../index.html" class="back-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+        <span>Tilbake</span>
+    </a>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button id="langBtn" class="lang-btn">
+            <span class="flag">🇳🇴</span>
+            <span class="lang-text">Norsk</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+        <div id="langDropdown" class="lang-dropdown">
+            <button class="lang-option active" data-lang="no">
+                <span class="flag">🇳🇴</span> Norsk
+            </button>
+            <button class="lang-option" data-lang="en">
+                <span class="flag">🇬🇧</span> English
+            </button>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>📚 Boksamling</h1>
+            <p>Fra sakprosa om AI-regulering til spennende romaner – utforsk mine bøker i skjæringspunktet mellom teknologi og samfunn.</p>
+        </div>
+    </section>
+
+    <!-- Non-Fiction Section -->
+    <section id="sakprosa" class="book-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-icon">📚</span>
+                <div>
+                    <h2>Sakprosa</h2>
+                    <p class="section-subtitle">Non-Fiction</p>
+                </div>
+            </div>
+            
+            <div class="books-grid">
+                <!-- EU AI Act -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <div class="cover-placeholder blue">
+                            <span>EU AI Act</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>EU AI Act</h3>
+                        <p class="book-subtitle">Hva norske bedrifter må vite nå</p>
+                        <p class="book-teaser">En praktisk guide til EUs nye AI-forordning. Forstå kravene, unngå bøtene, og implementer ansvarlig AI i din organisasjon. 29 kapitler som dekker alt fra risikoklassifisering til compliance-strategier.</p>
+                        <div class="book-meta">
+                            <span class="meta-tag">29 kapitler</span>
+                            <span class="meta-tag">Lydbok tilgjengelig</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tillit -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <div class="cover-placeholder purple">
+                            <span>Tillit</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>Tillit</h3>
+                        <p class="book-subtitle">Hvordan vi kan stole på AI</p>
+                        <p class="book-teaser">En dyptgående utforskning av tillit i AI-systemer. Hva skal til for at vi kan stole på maskinene som tar stadig flere beslutninger i livene våre?</p>
+                        <div class="book-meta">
+                            <span class="meta-tag">Kommer snart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Novels Section -->
+    <section id="romaner" class="book-section section-alt">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-icon">📖</span>
+                <div>
+                    <h2>Romaner</h2>
+                    <p class="section-subtitle">Novels</p>
+                </div>
+            </div>
+            
+            <div class="books-grid">
+                <!-- Rettens Time -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <div class="cover-placeholder red">
+                            <span>Rettens Time</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>Rettens Time</h3>
+                        <p class="book-subtitle">Juridisk thriller</p>
+                        <p class="book-teaser">Når en AI-dommer begynner å dømme uskyldige, må advokat Maria Solberg avdekke sannheten før systemet knuser flere liv. En nervepirrende thriller om rettferdighet i algoritmenes tidsalder.</p>
+                        <div class="book-meta">
+                            <span class="meta-tag">29 kapitler</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jakten på AI-tronen -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <div class="cover-placeholder amber">
+                            <span>Jakten på AI-tronen</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>Jakten på AI-tronen</h3>
+                        <p class="book-subtitle">Tech-thriller</p>
+                        <p class="book-teaser">I kappløpet om å skape verdens mektigste AI, er ingen regler hellige. En thriller om makt, ambisjoner og de mørke sidene av teknologiindustrien.</p>
+                        <div class="book-meta">
+                            <span class="meta-tag">32 kapitler</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Den splittede skyggen -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <div class="cover-placeholder dark">
+                            <span>Den splittede skyggen</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>Den splittede skyggen</h3>
+                        <p class="book-subtitle">Psykologisk thriller</p>
+                        <p class="book-teaser">Hva skjer når en AI kan lese tankene dine? En mørk reise inn i menneskesinnet og teknologiens grenser.</p>
+                        <div class="book-meta">
+                            <span class="meta-tag">Roman</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Oracle 2.0 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="../covers/oracle-2-cover.png" alt="Oracle 2.0" onerror="this.parentElement.innerHTML='<div class=\'cover-placeholder cyan\'><span>Oracle 2.0</span></div>'">
+                    </div>
+                    <div class="book-info">
+                        <h3>Oracle 2.0</h3>
+                        <p class="book-subtitle">Sci-fi thriller</p>
+                        <p class="book-teaser">En AI som kan forutsi fremtiden. Men hvem kontrollerer orakelet, og hva skjer når spådommene begynner å gå i oppfyllelse?</p>
+                        <div class="book-meta">
+                            <span class="meta-tag">Roman</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Justitia -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="../covers/justitia_cover.png" alt="Justitia" onerror="this.parentElement.innerHTML='<div class=\'cover-placeholder indigo\'><span>Justitia</span></div>'">
+                    </div>
+                    <div class="book-info">
+                        <h3>Justitia</h3>
+                        <p class="book-subtitle">Juridisk drama</p>
+                        <p class="book-teaser">Rettferdighet er blind – men hva når den også er kunstig? En roman om lov, moral og maskinenes dom.</p>
+                        <div class="book-meta">
+                            <span class="meta-tag">Roman</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maskinen som høres sikker ut -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <div class="cover-placeholder teal">
+                            <span>Maskinen som høres sikker ut</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>Maskinen som høres sikker ut</h3>
+                        <p class="book-subtitle">Thriller</p>
+                        <p class="book-teaser">Når AI-systemet alltid høres så overbevisende ut, hvordan vet du når det lyver? En thriller om tillit og bedrag i den digitale tidsalderen.</p>
+                        <div class="book-meta">
+                            <span class="meta-tag">Kommer snart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Children's Books Section -->
+    <section id="barneboker" class="book-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-icon">🧸</span>
+                <div>
+                    <h2>Barnebøker</h2>
+                    <p class="section-subtitle">Children's Books</p>
+                </div>
+            </div>
+            
+            <div class="series-intro">
+                <h3>AI-Politiet Serien</h3>
+                <p>Følg AI-Politiet på spennende eventyr der de lærer barn om kunstig intelligens på en morsom og engasjerende måte. Perfekt for barn i alderen 6-10 år.</p>
+            </div>
+            
+            <div class="books-grid children-grid">
+                <!-- AI-Politiet Book 1 -->
+                <div class="book-card book-card-small">
+                    <div class="book-cover">
+                        <div class="cover-placeholder green">
+                            <span>AI-Politiet 1</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>AI-Politiet og den mystiske roboten</h3>
+                        <p class="book-teaser">Det første eventyret der barna møter AI-Politiet og lærer hva kunstig intelligens egentlig er.</p>
+                    </div>
+                </div>
+
+                <!-- AI-Politiet Book 2 -->
+                <div class="book-card book-card-small">
+                    <div class="book-cover">
+                        <div class="cover-placeholder orange">
+                            <span>AI-Politiet 2</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>AI-Politiet og det hemmelige laboratoriet</h3>
+                        <p class="book-teaser">AI-Politiet oppdager et hemmelig laboratorium der noen lager snille roboter.</p>
+                    </div>
+                </div>
+
+                <!-- AI-Politiet Book 3 -->
+                <div class="book-card book-card-small">
+                    <div class="book-cover">
+                        <div class="cover-placeholder pink">
+                            <span>AI-Politiet 3</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>AI-Politiet og den talende bilen</h3>
+                        <p class="book-teaser">Hva skjer når biler kan snakke og kjøre selv? AI-Politiet finner ut!</p>
+                    </div>
+                </div>
+
+                <!-- AI-Politiet Book 4 -->
+                <div class="book-card book-card-small">
+                    <div class="book-cover">
+                        <div class="cover-placeholder sky">
+                            <span>AI-Politiet 4</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>AI-Politiet og den smarte skolen</h3>
+                        <p class="book-teaser">Skolen får en AI-lærer. Men kan en robot virkelig lære bort ting?</p>
+                    </div>
+                </div>
+
+                <!-- AI-Politiet Book 5-8 -->
+                <div class="book-card book-card-small">
+                    <div class="book-cover">
+                        <div class="cover-placeholder lime">
+                            <span>AI-Politiet 5</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>AI-Politiet og drømmemaskinen</h3>
+                        <p class="book-teaser">En maskin som kan se drømmene dine – er det mulig?</p>
+                    </div>
+                </div>
+
+                <div class="book-card book-card-small">
+                    <div class="book-cover">
+                        <div class="cover-placeholder coral">
+                            <span>AI-Politiet 6</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>AI-Politiet og den usynlige vennen</h3>
+                        <p class="book-teaser">Kan en AI være din beste venn?</p>
+                    </div>
+                </div>
+
+                <div class="book-card book-card-small">
+                    <div class="book-cover">
+                        <div class="cover-placeholder violet">
+                            <span>AI-Politiet 7</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>AI-Politiet og fremtidsbyen</h3>
+                        <p class="book-teaser">Hvordan ser en by ut der alt styres av AI?</p>
+                    </div>
+                </div>
+
+                <div class="book-card book-card-small">
+                    <div class="book-cover">
+                        <div class="cover-placeholder gold">
+                            <span>AI-Politiet 8</span>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <h3>AI-Politiet og det store mysteriet</h3>
+                        <p class="book-teaser">Det siste eventyret der alle trådene samles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publisher Note -->
+    <section class="publisher-note">
+        <div class="container">
+            <div class="note-content">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                <div>
+                    <h4>For forlag og utgivere</h4>
+                    <p>Disse bøkene er tilgjengelige for lisensiering. For forespørsler om utgivelse, oversettelse eller andre samarbeid, vennligst ta kontakt via <a href="https://linkedin.com/in/bjornvhauge" target="_blank">LinkedIn</a> eller <a href="mailto:info@bjornvhauge.com">info@bjornvhauge.com</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Bjørn V. Hauge</h3>
+                    <p>Forfatter, Oppfinner & Grunnlegger av Veriton</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://veriton.io" target="_blank" rel="noopener">Veriton</a>
+                    <a href="https://linkedin.com/in/bjornvhauge" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="mailto:info@bjornvhauge.com">Kontakt</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bjørn V. Hauge. Alle rettigheter reservert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
