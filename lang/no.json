@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "lang": "no",
+    "name": "Norsk",
+    "flag": "🇳🇴"
+  },
+  "hero": {
+    "badge": "Forfatter & Oppfinner",
+    "name": "Bjørn V. Hauge",
+    "tagline": "Utforsker skjæringspunktet mellom <span class=\"highlight-blue\">AI</span>, <span class=\"highlight-purple\">teknologi</span> og <span class=\"highlight-green\">samfunn</span> gjennom bøker og innovasjon.",
+    "bio": "Grunnlegger av Veriton – et selskap dedikert til å gjøre AI pålitelig, forklarbar og reviderbar. Oppfinner av Transparent Verifiable Random Function (TVRF).",
+    "founderBadge": "Grunnlegger av Veriton",
+    "btnBooks": "Mine bøker",
+    "btnAbout": "Om meg",
+    "btnVeriton": "Veriton"
+  },
+  "books": {
+    "sectionTitle": "Boksamling",
+    "sectionSubtitle": "Fra sakprosa om AI-regulering til spennende romaner – utforsk mine bøker i skjæringspunktet mellom teknologi og samfunn.",
+    "categories": {
+      "nonfiction": {
+        "title": "Sakprosa",
+        "subtitle": "Non-Fiction"
+      },
+      "novels": {
+        "title": "Romaner",
+        "subtitle": "Novels"
+      },
+      "children": {
+        "title": "Barnebøker",
+        "subtitle": "Children's Books"
+      }
+    },
+    "series": {
+      "aiThrone": {
+        "title": "Jakten på AI Tronen",
+        "subtitle": "The Hunt for the AI Throne"
+      },
+      "evaLindgren": {
+        "title": "Eva Lindgren Trilogien",
+        "subtitle": "The Eva Lindgren Trilogy"
+      },
+      "oracle": {
+        "title": "Orakelet",
+        "subtitle": "The Oracle"
+      }
+    },
+    "items": {
+      "tillit": {
+        "title": "Tillit",
+        "titleEn": "Trust",
+        "description": "Hva skjer når vi stoler på maskiner vi ikke forstår"
+      },
+      "euAiAct": {
+        "title": "EU AI Act",
+        "titleEn": "AI-regulering i praksis",
+        "description": "En sakprosabok om AI-regulering"
+      },
+      "jaktenAiTronen": {
+        "title": "Jakten på AI-tronen",
+        "titleEn": "The Hunt for the AI Throne",
+        "description": ""
+      },
+      "jaktenArven": {
+        "title": "Jakten på Arven",
+        "titleEn": "The Hunt for the Inheritance",
+        "description": "En norsk techno-thriller"
+      },
+      "rettensTime": {
+        "title": "Rettens Time",
+        "titleEn": "The Hour of Justice",
+        "description": "En Eva Lindgren-thriller"
+      },
+      "justitia": {
+        "title": "JUSTITIA",
+        "titleEn": "",
+        "description": ""
+      },
+      "blindsone": {
+        "title": "Blindsone",
+        "titleEn": "Blind Spot",
+        "description": "En teknologithriller om AI og makt"
+      },
+      "oracle2": {
+        "title": "Oracle 2.0",
+        "titleEn": "Oppfølgeren til Blindsone",
+        "description": ""
+      },
+      "aiPolitiet": {
+        "title": "AI-Politiet",
+        "titleEn": "The AI Police",
+        "description": "En barnebokserie om kunstig intelligens"
+      }
+    },
+    "status": {
+      "completed": "Fullført",
+      "construction": "🚧 Under utvikling"
+    },
+    "publisherNote": "<strong>For forlag:</strong> Disse manuskriptene er tilgjengelige for lisensiering. <a href=\"https://www.linkedin.com/in/bjornvhauge/\" target=\"_blank\">Kontakt meg på LinkedIn</a>"
+  },
+  "about": {
+    "title": "Om meg",
+    "p1": "Jeg er <strong>Bjørn V. Hauge</strong>, grunnlegger av <a href=\"https://veriton.io\" target=\"_blank\">Veriton</a> – et selskap dedikert til å gjøre AI pålitelig, forklarbar og reviderbar.",
+    "p2": "Mitt arbeid fokuserer på skjæringspunktet mellom kunstig intelligens, teknologi og samfunn. Gjennom Veriton utvikler jeg <strong>Transparent Verifiable Random Function (TVRF)</strong>-teknologi for å hjelpe organisasjoner med å overholde EU AI Act og låse opp AI for regulerte markeder som helse, bank, finans, offentlig sektor og forsvar.",
+    "p3": "Ved siden av skriver jeg bøker om AI – fra sakprosa som utforsker tillit og regulering, til thrillere som dramatiserer de etiske dilemmaene i vår teknologiske tidsalder, til barnebøker som introduserer AI-konsepter for unge sinn.",
+    "connectTitle": "Ta kontakt"
+  },
+  "footer": {
+    "copyright": "© 2026 Bjørn V. Hauge. Alle rettigheter reservert."
+  },
+  "common": {
+    "contactLinkedIn": "Kontakt meg på LinkedIn"
+  }
+}
