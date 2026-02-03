@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles - Bjørn V. Hauge</title>
+    <meta name="description" content="Articles and insights on AI, technology, trust, and regulation by Bjørn V. Hauge.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/article.css">
+    <link rel="icon" type="image/png" href="../images/bjorn_hauge_professional.png">
+</head>
+<body>
+    <!-- Back Button -->
+    <a href="../index.html" class="back-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+        <span data-i18n="back">Back</span>
+    </a>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button id="langBtn" class="lang-btn">
+            <span class="flag">🇬🇧</span>
+            <span class="lang-text">English</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+        <div id="langDropdown" class="lang-dropdown">
+            <button class="lang-option" data-lang="no">
+                <span class="flag">🇳🇴</span> Norsk
+            </button>
+            <button class="lang-option active" data-lang="en">
+                <span class="flag">🇬🇧</span> English
+            </button>
+        </div>
+    </div>
+
+    <!-- Articles Header -->
+    <section class="articles-header">
+        <h1>Articles & Insights</h1>
+        <p>Thoughts on AI, technology, trust, and the future of intelligent systems.</p>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="articles-grid">
+        <!-- Do You Trust AI? -->
+        <a href="../articles/do-you-trust-ai.html" class="article-card">
+            <img src="../images/articles/trust-ai-card.png" alt="Do You Trust AI?" class="article-card-image">
+            <div class="article-card-content">
+                <span class="article-card-category">Opinion</span>
+                <div class="article-card-meta">
+                    <span>February 2026</span>
+                    <span>8 min read</span>
+                </div>
+                <h3 class="article-card-title">Do You Trust AI?</h3>
+                <p class="article-card-excerpt">Trust is not binary. It is not a switch that flips when a system reaches a certain accuracy threshold. Trust is earned, maintained, and sometimes lost.</p>
+                <div class="article-card-footer">
+                    <div class="article-card-author">
+                        <img src="../images/bjorn_hauge_professional.png" alt="Bjørn V. Hauge">
+                        <span>Bjørn V. Hauge</span>
+                    </div>
+                    <span class="read-more-link">Read more →</span>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="books-footer">
+        <div class="container">
+            <p>&copy; 2026 Bjørn V. Hauge. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- i18n Script -->
+    <script src="../js/i18n.js"></script>
+</body>
+</html>

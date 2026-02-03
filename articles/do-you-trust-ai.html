@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Trust AI? - Bjørn V. Hauge</title>
+    <meta name="description" content="Trust is not binary. It is not a switch that flips when a system reaches a certain accuracy threshold. Trust is earned, maintained, and sometimes lost.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/article.css">
+    <link rel="icon" type="image/png" href="../images/bjorn_hauge_professional.png">
+</head>
+<body>
+    <!-- Back Button -->
+    <a href="../pages/articles.html" class="back-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+        <span>Back to Articles</span>
+    </a>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button id="langBtn" class="lang-btn">
+            <span class="flag">🇬🇧</span>
+            <span class="lang-text">English</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+        <div id="langDropdown" class="lang-dropdown">
+            <button class="lang-option" data-lang="no">
+                <span class="flag">🇳🇴</span> Norsk
+            </button>
+            <button class="lang-option active" data-lang="en">
+                <span class="flag">🇬🇧</span> English
+            </button>
+        </div>
+    </div>
+
+    <article class="article-page">
+        <!-- Article Header -->
+        <header class="article-header">
+            <span class="article-category">Opinion</span>
+            <h1 class="article-title">Do You Trust AI?</h1>
+            <p class="article-subtitle">Trust is not binary. It is not a switch that flips when a system reaches a certain accuracy threshold. Trust is earned, maintained, and sometimes lost.</p>
+            
+            <div class="article-meta">
+                <span class="article-meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    February 2026
+                </span>
+                <span class="article-meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    8 min read
+                </span>
+            </div>
+            
+            <div class="article-author">
+                <img src="../images/bjorn_hauge_professional.png" alt="Bjørn V. Hauge" class="author-avatar">
+                <div class="author-info">
+                    <span class="author-name">Bjørn V. Hauge</span>
+                    <span class="author-title">Author & Founder, Veriton</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Image -->
+        <img src="../images/articles/trust-ai-hero.png" alt="Do You Trust AI?" class="article-hero">
+
+        <!-- Article Content -->
+        <div class="article-content">
+            <p>There is a question that surfaces again and again in conversations about artificial intelligence. It is rarely asked directly, but it runs beneath almost every discussion about adoption, regulation, and risk.</p>
+            
+            <p>Do you trust AI?</p>
+            
+            <p>The answer is not simple. And it should not be.</p>
+            
+            <p>Trust is not binary. It is not a switch that flips when a system reaches a certain accuracy threshold. Trust is earned, maintained, and sometimes lost. It depends on context, consequences, and the ability to verify that a system behaves as expected.</p>
+            
+            <p>In the world of AI, that verification is often missing.</p>
+
+            <h2>The problem with black boxes</h2>
+            
+            <img src="../images/articles/trust-ai-blackbox.png" alt="AI Black Box Concept">
+            
+            <p>Most modern AI systems, especially large language models, are opaque by design. They are trained on vast datasets, optimized through processes that even their creators cannot fully trace, and deployed in ways that make it difficult to understand why a particular output was produced.</p>
+            
+            <p>This opacity is not a bug. It is a feature of how these systems are built.</p>
+            
+            <p>But opacity creates a fundamental tension. We are asked to rely on systems we cannot inspect. We are expected to trust outputs we cannot verify. We are told to integrate intelligence into critical workflows without being able to explain how that intelligence works.</p>
+            
+            <p>That is not a foundation for trust. That is a leap of faith.</p>
+
+            <h2>Confidence without certainty</h2>
+            
+            <img src="../images/articles/trust-ai-confidence.png" alt="AI Confidence vs Certainty">
+            
+            <p>One of the most unsettling aspects of modern AI is how confident it appears. A language model does not hesitate. It does not say "I am not sure." It generates answers with the same fluency whether it is correct or completely wrong.</p>
+            
+            <p>This creates a dangerous asymmetry. The user sees confidence. The system has none.</p>
+            
+            <p>Confidence is not the same as certainty. And certainty is not the same as correctness.</p>
+            
+            <p>When systems are deployed in high stakes environments, this distinction matters. A confident wrong answer can be more dangerous than an uncertain correct one.</p>
+
+            <h2>When systems decide, uncertainty becomes risk</h2>
+            
+            <p>As long as AI is used for inspiration or experimentation, uncertainty is mostly tolerable. But that is no longer the world we live in.</p>
+            
+            <p>AI systems are increasingly involved in decisions about finance, healthcare, infrastructure, security, compliance, and governance. In these contexts, uncertainty is no longer just an academic concern. It becomes operational risk.</p>
+            
+            <p>If a system cannot explain why it produced a result, if it cannot be audited, if its behavior cannot be reproduced, then trust collapses the moment something goes wrong.</p>
+            
+            <p>And something always goes wrong.</p>
+
+            <h2>Hallucinations are not edge cases</h2>
+            
+            <p>There is a tendency to talk about AI hallucinations as rare failures or temporary growing pains. That framing is misleading.</p>
+            
+            <p>Hallucinations are a natural outcome of systems that prioritize fluent generation over grounded verification. They do not disappear simply because models become larger. In some cases, they become harder to detect.</p>
+            
+            <p>A confident answer can still be wrong. A detailed explanation can still be fabricated. A polished response can still be misleading.</p>
+            
+            <p>Trust cannot be built on surface level correctness.</p>
+
+            <h2>Trust is not added later</h2>
+            
+            <p>One of the most common mistakes in AI development is treating trust as something that can be layered on after the system is built.</p>
+            
+            <p>It cannot.</p>
+            
+            <p>Trust is not a feature. It is a property of the entire system.</p>
+            
+            <p>It emerges from how data is handled, how models are trained, how decisions are logged, how outputs are validated, and how failures are surfaced. It depends on governance as much as on code. It requires deliberate design choices made early and reinforced over time.</p>
+            
+            <p>If trust is not designed in from the beginning, it rarely appears by accident.</p>
+
+            <h2>Regulation is forcing the conversation</h2>
+            
+            <p>Whether organizations like it or not, regulation is accelerating this shift.</p>
+            
+            <p>The focus is moving away from what AI can do in theory, and toward what systems must demonstrate in practice. Risk classification, accountability, auditability, and compliance are no longer optional considerations. They are becoming part of the cost of doing business.</p>
+            
+            <p>This is not about slowing innovation. It is about aligning intelligent systems with the realities they operate within.</p>
+            
+            <p>Responsible AI is not just an ethical aspiration. It is increasingly a legal requirement.</p>
+
+            <h2>Infrastructure is where trust lives</h2>
+            
+            <img src="../images/articles/trust-ai-infrastructure.png" alt="Trustworthy AI Infrastructure">
+            
+            <p>Ultimately, trust in AI is not established through promises or positioning. It is established through infrastructure.</p>
+            
+            <p>Infrastructure that makes systems auditable. Infrastructure that makes results reproducible. Infrastructure that allows behavior to be examined, questioned, and improved.</p>
+            
+            <p>This applies to large language models, specialized AI systems, and everyday tools used across organizations. Without this foundation, intelligence remains fragile, no matter how impressive it appears.</p>
+
+            <h2>The real question</h2>
+            
+            <p>So we come back to the original question.</p>
+            
+            <p>Do you trust AI?</p>
+            
+            <p>If the answer feels unclear, that uncertainty is not a personal failure. It is a signal. A signal that trust has not yet been fully designed, governed, and earned.</p>
+            
+            <p>The future of AI will not be decided by who builds the most impressive models. It will be shaped by who builds systems that can be relied upon when the stakes are real.</p>
+        </div>
+
+        <!-- Article Footer -->
+        <footer class="article-footer">
+            <div class="article-tags">
+                <span class="article-tag">AI</span>
+                <span class="article-tag">Trust</span>
+                <span class="article-tag">Regulation</span>
+                <span class="article-tag">Technology</span>
+            </div>
+            
+            <div class="article-share">
+                <span class="share-label">Share this article:</span>
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://bjornvhauge.com/articles/do-you-trust-ai.html&title=Do%20You%20Trust%20AI?" target="_blank" class="share-btn" title="Share on LinkedIn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Do%20You%20Trust%20AI?&url=https://bjornvhauge.com/articles/do-you-trust-ai.html" target="_blank" class="share-btn" title="Share on X">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                </a>
+            </div>
+        </footer>
+    </article>
+
+    <!-- i18n Script -->
+    <script src="../js/i18n.js"></script>
+</body>
+</html>
