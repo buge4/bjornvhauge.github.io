@@ -274,3 +274,48 @@
     background: var(--color-bg);
     box-shadow: var(--shadow-lg);
 }
+
+
+/* Book Card Link Styles */
+.book-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.book-card-link .book-card {
+    cursor: pointer;
+}
+
+.book-card-link:hover .book-card {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--color-primary);
+}
+
+.book-card-link:hover .book-info h3 {
+    color: var(--color-primary);
+}
+
+/* Footer */
+.books-footer {
+    text-align: center;
+    padding: 3rem 0;
+    background: var(--color-bg-secondary);
+    border-top: 1px solid var(--color-border);
+}
+
+.books-footer p {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-note a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.footer-note a:hover {
+    text-decoration: underline;
+}
