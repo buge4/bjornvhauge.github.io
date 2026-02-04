@@ -8,8 +8,8 @@ const translations = {
         langName: "Norsk",
         
         // Books page
-        bookCollection: "Boksamling",
-        bookCollectionDesc: "Fra sakprosa om AI-regulering til spennende romaner – utforsk mine bøker i skjæringspunktet mellom teknologi og samfunn.",
+        bookCollection: "Bøker",
+        bookCollectionDesc: "Utforsk boksamlingen – fra sakprosa om AI og teknologi til spennende romaner.",
         nonFiction: "Sakprosa",
         nonFictionSub: "Non-Fiction",
         novels: "Romaner",
@@ -19,6 +19,12 @@ const translations = {
         chapters: "kapitler",
         audiobookAvailable: "Lydbok tilgjengelig",
         comingSoon: "Kommer snart",
+        underConstruction: "Under Construction",
+        
+        // Subsection headers
+        jaktenAiTronenSeries: "Jakten på AI Tronen",
+        evaLindgrenTrilogy: "Eva Lindgren Trilogien",
+        oracleSeries: "Orakelet",
         
         // Book: Tillit
         tillitTitle: "Tillit",
@@ -27,18 +33,22 @@ const translations = {
         
         // Book: EU AI Act
         euAiActTitle: "EU AI Act",
-        euAiActSubtitle: "Hva norske bedrifter må vite nå",
-        euAiActTeaser: "En praktisk guide til EUs nye AI-forordning. Forstå kravene, unngå bøtene, og implementer ansvarlig AI i din organisasjon. 29 kapitler som dekker alt fra risikoklassifisering til compliance-strategier.",
+        euAiActSubtitle: "AI-regulering i praksis",
+        euAiActTeaser: "En praktisk guide til EUs nye AI-forordning. Forstå kravene, unngå bøtene, og implementer ansvarlig AI i din organisasjon.",
         
         // Book: Rettens Time
         rettensTimeTitle: "Rettens Time",
         rettensTimeSubtitle: "En Eva Lindgren-thriller",
-        rettensTimeTeaser: "Da en selvkjørende bil dreper åtte år gamle Oliver Berg, må advokat Eva Lindgren forsvare ingeniøren som programmerte bilens beslutningssystem. En gripende juridisk thriller om AI og ansvar.",
+        rettensTimeTeaser: "Da en selvkjørende bil dreper åtte år gamle Oliver Berg, må advokat Eva Lindgren forsvare ingeniøren som programmerte bilens beslutningssystem.",
         
         // Book: Jakten på AI-tronen
         jaktenTitle: "Jakten på AI-tronen",
         jaktenSubtitle: "En norsk techno-thriller",
         jaktenTeaser: "I kappløpet om å skape verdens mektigste AI, er ingen regler hellige. En thriller om makt, ambisjoner og de mørke sidene av teknologiindustrien.",
+        
+        // Book: Jakten på Arven
+        jaktenArvenTitle: "Jakten på Arven",
+        jaktenArvenSubtitle: "En norsk techno-thriller",
         
         // Book: Blindsone
         blindsoneTitle: "Blindsone",
@@ -47,20 +57,17 @@ const translations = {
         
         // Book: Oracle 2.0
         oracleTitle: "Oracle 2.0",
-        oracleSubtitle: "Oppfølgeren til Blindsone",
+        oracleSubtitle: "Oppfølgeren til Blindsone - Under utvikling",
         oracleTeaser: "ORACLE-systemets «sleeper agents» våkner i vestlige AI-modeller. Karin Lindberg og teamet hennes må stoppe en ny trussel som truer med å destabilisere hele den globale AI-infrastrukturen.",
         
         // Book: Justitia
-        justitiaTitle: "Justitia",
+        justitiaTitle: "JUSTITIA",
         justitiaSubtitle: "En Eva Lindgren-thriller",
-        justitiaTeaser: "Eva Lindgren kjemper mot JUSTITIA - et AI-system som diskriminerer i det norske rettsvesenet. Basert på virkelige skandaler som Nederlandskandalen og GPT-advokat-saken.",
-        
-        // Book: Maskinen
-        maskinenTitle: "Maskinen som høres sikker ut",
-        maskinenSubtitle: "Thriller",
-        maskinenTeaser: "Når AI-systemet alltid høres så overbevisende ut, hvordan vet du når det lyver? En thriller om tillit og bedrag i den digitale tidsalderen.",
+        justitiaTeaser: "Eva Lindgren kjemper mot JUSTITIA - et AI-system som diskriminerer i det norske rettsvesenet.",
         
         // Children's books
+        aiPolitietTitle: "AI-Politiet",
+        aiPolitietSubtitle: "En barnebokserie om kunstig intelligens",
         aiPolitietSeries: "AI-Politiet Serien",
         aiPolitietDesc: "Følg AI-Politiet på spennende eventyr der de lærer barn om kunstig intelligens på en morsom og engasjerende måte. Perfekt for barn i alderen 6-10 år.",
         
@@ -80,8 +87,8 @@ const translations = {
         langName: "English",
         
         // Books page
-        bookCollection: "Book Collection",
-        bookCollectionDesc: "From non-fiction about AI regulation to exciting novels – explore my books at the intersection of technology and society.",
+        bookCollection: "Books",
+        bookCollectionDesc: "Explore the book collection – from non-fiction about AI and technology to exciting novels.",
         nonFiction: "Non-Fiction",
         nonFictionSub: "Sakprosa",
         novels: "Novels",
@@ -91,6 +98,12 @@ const translations = {
         chapters: "chapters",
         audiobookAvailable: "Audiobook available",
         comingSoon: "Coming soon",
+        underConstruction: "Under Construction",
+        
+        // Subsection headers
+        jaktenAiTronenSeries: "The Hunt for the AI Throne",
+        evaLindgrenTrilogy: "The Eva Lindgren Trilogy",
+        oracleSeries: "The Oracle",
         
         // Book: Tillit
         tillitTitle: "Trust",
@@ -99,18 +112,22 @@ const translations = {
         
         // Book: EU AI Act
         euAiActTitle: "EU AI Act",
-        euAiActSubtitle: "What Norwegian businesses need to know now",
-        euAiActTeaser: "A practical guide to the EU's new AI regulation. Understand the requirements, avoid the fines, and implement responsible AI in your organization. 29 chapters covering everything from risk classification to compliance strategies.",
+        euAiActSubtitle: "AI Regulation in Practice",
+        euAiActTeaser: "A practical guide to the EU's new AI regulation. Understand the requirements, avoid the fines, and implement responsible AI in your organization.",
         
         // Book: Rettens Time
         rettensTimeTitle: "The Hour of Justice",
         rettensTimeSubtitle: "An Eva Lindgren thriller",
-        rettensTimeTeaser: "When a self-driving car kills eight-year-old Oliver Berg, lawyer Eva Lindgren must defend the engineer who programmed the car's decision system. A gripping legal thriller about AI and accountability.",
+        rettensTimeTeaser: "When a self-driving car kills eight-year-old Oliver Berg, lawyer Eva Lindgren must defend the engineer who programmed the car's decision system.",
         
         // Book: Jakten på AI-tronen
         jaktenTitle: "The Hunt for the AI Throne",
         jaktenSubtitle: "A Norwegian techno-thriller",
         jaktenTeaser: "In the race to create the world's most powerful AI, no rules are sacred. A thriller about power, ambition, and the dark sides of the technology industry.",
+        
+        // Book: Jakten på Arven
+        jaktenArvenTitle: "The Hunt for the Inheritance",
+        jaktenArvenSubtitle: "A Norwegian techno-thriller",
         
         // Book: Blindsone
         blindsoneTitle: "Blind Spot",
@@ -119,20 +136,17 @@ const translations = {
         
         // Book: Oracle 2.0
         oracleTitle: "Oracle 2.0",
-        oracleSubtitle: "The sequel to Blind Spot",
+        oracleSubtitle: "The sequel to Blind Spot - Under development",
         oracleTeaser: "The ORACLE system's 'sleeper agents' awaken in Western AI models. Karin Lindberg and her team must stop a new threat that threatens to destabilize the entire global AI infrastructure.",
         
         // Book: Justitia
-        justitiaTitle: "Justitia",
+        justitiaTitle: "JUSTITIA",
         justitiaSubtitle: "An Eva Lindgren thriller",
-        justitiaTeaser: "Eva Lindgren fights against JUSTITIA - an AI system that discriminates in the Norwegian justice system. Based on real scandals like the Netherlands scandal and the GPT lawyer case.",
-        
-        // Book: Maskinen
-        maskinenTitle: "The Machine That Sounds Certain",
-        maskinenSubtitle: "Thriller",
-        maskinenTeaser: "When the AI system always sounds so convincing, how do you know when it's lying? A thriller about trust and deception in the digital age.",
+        justitiaTeaser: "Eva Lindgren fights against JUSTITIA - an AI system that discriminates in the Norwegian justice system.",
         
         // Children's books
+        aiPolitietTitle: "The AI Police",
+        aiPolitietSubtitle: "A children's book series about artificial intelligence",
         aiPolitietSeries: "The AI Police Series",
         aiPolitietDesc: "Follow the AI Police on exciting adventures where they teach children about artificial intelligence in a fun and engaging way. Perfect for children ages 6-10.",
         
