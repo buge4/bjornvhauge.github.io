@@ -79,7 +79,9 @@ const translations = {
         
         // Footer
         footerText: "© 2026 Bjørn V. Hauge. Alle rettigheter reservert.",
-        footerNote: "Manuskripter tilgjengelige for lisensiering."
+        footerNote: "Manuskripter tilgjengelige for lisensiering.",
+        footerFollowMe: "Følg meg:",
+        footerContact: "Kontakt"
     },
     en: {
         // Navigation
@@ -158,6 +160,8 @@ const translations = {
         
         // Footer
         footerText: "© 2026 Bjørn V. Hauge. All rights reserved.",
+        footerFollowMe: "Follow me:",
+        footerContact: "Contact",
         footerNote: "Manuscripts available for licensing."
     }
 };
