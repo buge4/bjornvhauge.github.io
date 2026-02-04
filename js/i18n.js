@@ -227,6 +227,17 @@ function updatePageContent(lang) {
             el.placeholder = t[key];
         }
     });
+    
+    // Update book cover images based on language
+    document.querySelectorAll('img[data-cover-no][data-cover-en]').forEach(img => {
+        const coverNo = img.getAttribute('data-cover-no');
+        const coverEn = img.getAttribute('data-cover-en');
+        if (lang === 'en' && coverEn) {
+            img.src = coverEn;
+        } else if (coverNo) {
+            img.src = coverNo;
+        }
+    });
 }
 
 // Update language selector UI
