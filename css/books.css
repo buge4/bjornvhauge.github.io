@@ -323,7 +323,7 @@
 }
 
 
-/* 2-Column Paired Book Grid */
+/* 2-Column Paired Book Grid - Always 2 columns on desktop */
 .books-grid-2 {
     display: grid;
     grid-template-columns: 1fr;
@@ -332,7 +332,13 @@
 
 @media (min-width: 768px) {
     .books-grid-2 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .books-grid-2 {
+        grid-template-columns: repeat(2, 1fr) !important;
     }
 }
 
